@@ -1,0 +1,6 @@
+[user]
+	name = rs
+[core]
+	editor = vim
+[init]
+	defaultBranch = main

@@ -1,0 +1,16 @@
+swipe:
+  3:
+    left:
+      command: "qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut \"Switch One Desktop to the Right\""
+    right:
+      command: "qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut \"Switch One Desktop to the Left\""
+    up:
+      command: "qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut \"Switch One Desktop Down\""
+    down:
+      command: "qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut \"Switch One Desktop Up\""
+  4:
+    up:
+      command: "qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut \"ShowDesktopGrid\""
+
+interval:
+  swipe: 0.50

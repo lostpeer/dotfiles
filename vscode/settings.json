@@ -1,0 +1,60 @@
+{
+    // go settings
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+        // Optional: Disable snippets, as they conflict with completion ranking.
+        // "editor.snippetSuggestions": "none",
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
+    "gopls": {
+        "formatting.gofumpt": true,
+        "ui.diagnostic.analyses": {
+            "unusedparams": true,
+            "copylocks": true,
+        },
+        "ui.semanticTokens": true,
+        // "build.buildFlags": ["-tags=ignore"],
+        "templateExtensions": ["gotmpl", "tmpl"],
+        "ui.diagnostic.staticcheck": true
+    },
+
+    // icons
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.saturation": 1,
+
+    // fonts
+    "editor.fontFamily": "Fira Code",
+    "editor.fontWeight": "400",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "'Fira Code'",
+
+    // json schema
+    "json.schemaDownload.enable": false,
+    
+    // vscode settings
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "workbench.colorTheme": "Default Light+",
+    "editor.inlineSuggest.enabled": true,
+
+    // telemetry
+    "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false,
+}
