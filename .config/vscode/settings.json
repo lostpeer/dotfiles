@@ -3,22 +3,22 @@
     "[go]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
+            "source.organizeImports": true,
+        },
         // Optional: Disable snippets, as they conflict with completion ranking.
         // "editor.snippetSuggestions": "none",
     },
     "[go.mod]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
+            "source.organizeImports": true,
+        },
     },
     "gopls": {
         "formatting.gofumpt": true,
         "ui.diagnostic.analyses": {
             "unusedparams": true,
-            "copylocks": true
+            "copylocks": true,
         },
         "ui.semanticTokens": true,
         // "build.buildFlags": ["-tags=ignore"],
@@ -28,11 +28,10 @@
 
     // theme
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Default Light+",
     "material-icon-theme.hidesExplorerArrows": true,
     "material-icon-theme.folders.theme": "specific",
     "material-icon-theme.saturation": 1,
-
+    
     // fonts
     "editor.fontFamily": "Fira Code",
     "editor.fontWeight": "400",
@@ -40,23 +39,23 @@
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "'Fira Code'",
 
-    // json schema
-    "json.schemaDownload.enable": false,
-
-    // telemetry
-    "telemetry.telemetryLevel": "off",
-    "redhat.telemetry.enabled": false,
+    // editor
     "files.autoSave": "afterDelay",
-
-    // etc
-    "window.zoomLevel": 1,
     "window.titleBarStyle": "custom",
     "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": true,
     "editor.inlineSuggest.enabled": true,
     "explorer.confirmDelete": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.list.smoothScrolling": true,
     "workbench.enableExperiments": false,
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "terminal.integrated.persistentSessionReviveProcess": "never"
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+
+    // json schema
+    "json.schemaDownload.enable": false,
+
+    // telemetry
+    "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false
 }

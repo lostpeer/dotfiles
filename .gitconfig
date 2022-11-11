@@ -1,6 +1,8 @@
 [user]
 	name = rs
 [core]
-	editor = vim
+	editor = nvim
 [init]
 	defaultBranch = main
+[url "git@my.gitlab.com:"]
+    insteadOf = https://my.gitlab.com/
